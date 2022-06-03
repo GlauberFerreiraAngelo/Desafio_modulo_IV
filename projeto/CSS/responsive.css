@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    #presentation{
+        background-image: url("../imagem/naruto.jpg");
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
+    }    
+
+    #portfolio .project-item {
+        flex-direction: row;
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    #portfolio .all-projects .project-info{
+        height: 100%
+    }
+    #portfolio .all-projects .project-img{
+        height: 100%
+    }
+    #portfolio .project-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}
+
+
